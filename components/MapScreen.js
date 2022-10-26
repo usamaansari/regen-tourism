@@ -25,8 +25,7 @@ const [viewport, setViewport] = useState({
 
   return (
    <Map
-   //initialViewState={viewport}
-   {...viewport}
+   initialViewState={viewport}
    mapStyle='mapbox://styles/usama101/cl9p8s1ui000615qvxhzxhu9r'
    mapboxAccessToken= {process.env.mapbox_key}
    style={{width: '100%', height: '100%'}}
